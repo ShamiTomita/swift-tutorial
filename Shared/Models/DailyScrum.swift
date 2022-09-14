@@ -32,7 +32,7 @@ extension DailyScrum{
         var theme: Theme = .seafoam
     }
     var data: Data {
-        Data(title: title, attendees: attendess, lengthInMinutes: Double(lengthInMinutes), theme:theme)
+        Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme:theme)
     }
 }
 extension DailyScrum {
