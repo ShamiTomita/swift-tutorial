@@ -12,7 +12,7 @@ struct DailyScrum {
     var attendees: [String]
     var lengthInMinutes: Int
     var theme: Theme
-}
+}f
 
 extension DailyScrum{
     static let sampleData: [DailyScrum] =

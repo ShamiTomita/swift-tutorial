@@ -21,6 +21,7 @@
 		DBB0103628D21B68003CED68 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0103528D21B68003CED68 /* DailyScrum.swift */; };
 		DBB0103828D21BF1003CED68 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0103728D21BF1003CED68 /* CardView.swift */; };
 		DBB0103A28D21DEB003CED68 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0103928D21DEB003CED68 /* LabelStyle.swift */; };
+		DBB0103C28D22995003CED68 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0103B28D22995003CED68 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DBB0103528D21B68003CED68 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		DBB0103728D21BF1003CED68 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DBB0103928D21DEB003CED68 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		DBB0103B28D22995003CED68 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				DBB00FF628D211F9003CED68 /* Assets.xcassets */,
 				DBB0103728D21BF1003CED68 /* CardView.swift */,
 				DBB0103928D21DEB003CED68 /* LabelStyle.swift */,
+				DBB0103B28D22995003CED68 /* SwiftUIView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB0103628D21B68003CED68 /* DailyScrum.swift in Sources */,
+				DBB0103C28D22995003CED68 /* SwiftUIView.swift in Sources */,
 				DBB0103428D21AB4003CED68 /* Theme.swift in Sources */,
 				DBB0101E28D211F9003CED68 /* MeetingView.swift in Sources */,
 				DBB0101C28D211F9003CED68 /* ScrumdingerApp.swift in Sources */,
