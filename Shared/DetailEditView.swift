@@ -3,6 +3,7 @@ import SwiftUI
 struct DetailEditView: View {
     @Binding var data: DailyScrum.Data
     @State private var newAttendeeName = ""
+    
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {
@@ -18,23 +19,22 @@ struct DetailEditView: View {
                 }
                 ThemePicker(selection: $data.theme)
             }
-            Section(header: Text("Attendees")){
-                ForEach(data.attendees){attendee in
+            Section(header: Text("Attendees")) {
+                ForEach(data.attendees) { attendee in
                     Text(attendee.name)
                 }
-                .onDelete{ indices in
-                    data.attendees.remove(atOffsets:indices)
-                    
+                .onDelete { indices in
+                    data.attendees.remove(atOffsets: indices)
                 }
-                HStack{
+                HStack {
                     TextField("New Attendee", text: $newAttendeeName)
                     Button(action: {
                         withAnimation {
-                        let attendee = DailyScrum.Attendee(name: newAttendeeName)
-                        data.attendees.append(attendee)
+                            let attendee = DailyScrum.Attendee(name: newAttendeeName)
+                            data.attendees.append(attendee)
                             newAttendeeName = ""
                         }
-                    }){
+                    }) {
                         Image(systemName: "plus.circle.fill")
                             .accessibilityLabel("Add attendee")
                     }
